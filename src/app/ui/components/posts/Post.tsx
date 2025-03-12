@@ -6,6 +6,7 @@ export default function Component({ id, title, content, date }: { id: string, ti
             <h2>{title}</h2>
             <p className="text-gray-500">{date}</p>
             <p>{content}</p>
+            <p>new changes here</p>
         </div>
     );
 }
